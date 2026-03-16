@@ -202,7 +202,12 @@ def save_history(hist):
 # ══════════════════════════════════════════════════════════════════
 # BİNANCE API
 # ══════════════════════════════════════════════════════════════════
-API_BASE   = "https://fapi.binance.com"
+# Yeni hali (Bunlardan birini dene):
+API_BASE = "https://fapi.binance.us" # Eğer sorun ABD kaynaklıysa
+# VEYA
+API_BASE = "https://fapi1.binance.com" 
+# VEYA 
+API_BASE = "https://fapi2.binance.com"
 BATCH_SIZE = 1499
 REQ_DELAY  = 0.12
 
